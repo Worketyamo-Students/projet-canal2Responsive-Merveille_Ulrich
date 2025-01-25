@@ -1,6 +1,6 @@
  
-
-header{
+ 
+ header{
     display:flex;
     justify-content:space-between;
     padding-top:2rem;
@@ -52,6 +52,5 @@ header{
 .actu{
     font-family: var(--fontIBM);
     font-size: 1.1rem;
-    font-weight: 350;
+    font-weight: 440;
 }
-
