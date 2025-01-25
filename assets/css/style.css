@@ -5,14 +5,17 @@ header{
     justify-content:space-between;
     padding-top:2rem;
     padding-right:1rem;
+    align-items:center;
+    margin:1rem 1.7rem;
 }
-.menu{
-    padding-top:1.2rem;
+button{
+    background-color:white;
 }
 .section1{
     display: flex;
     flex-direction: column;
     margin: 2.5rem 2rem 2rem 1.7rem;
+    gap:2rem;
 }
 .section1_div1{
     height: 28rem;
@@ -20,13 +23,12 @@ header{
     background-position: center top;
     /* background-size: cover; */
     background-repeat: no-repeat;
-    display: flex;
-    position: absolute;
+    /* position: absolute; */
 }
 .ombre{
     background-color: black;
     height: 28rem;
-    width: 100%;
+    width: 91%;
     opacity: 40%;
     position: absolute;
 }
@@ -53,5 +55,99 @@ header{
     font-family: var(--fontIBM);
     font-size: 1.1rem;
     font-weight: 400;
+}
+.section1_div2{
+   
+    display:flex;
+    gap:2.8rem;
+}
+.section1_div2__petit1{
+   
+    height:11.4rem;
+    background-image:url(../img/enfants.svg);
+    background-size:cover;
+    color:black;
+    flex:1;
+    border-radius:1rem;
+}
+.texte1{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    background-color: aqua
+    font-family:var(--fontIBM);
+    font-weight:500;
+    font-size:1.7rem;
+
+}
+p{
+    font-size:1.2rem;
+    font-family:var(--fontOpenSans);
+}
+    
+.a_la_une{
+    height: 3rem;
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-left-color: var(--vert);
+}
+
+hr{
+    width:100rem;
+    height:0.1rem;
+    background-color:black;
+}
+
+
+.section1_div3{
+   
+    display:flex;
+    gap:2.8rem;
+}
+.section1_div3__petit2{
+   
+    height:11.4rem;
+    background-image:url(../img/armee.svg);
+    background-size:cover;
+    color:black;
+    flex:1;
+    border-radius:1rem;
+}
+.texte2{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    background-color: aqua
+    font-family:var(--fontIBM);
+    font-weight:500;
+    font-size:1.7rem;
+}
+.section1_div4{
+   
+    display:flex;
+    gap:2.8rem;
+}
+.section1_div3__petit3{
+   
+    height:11.4rem;
+    background-image:url(../img/ville.svg);
+    background-size:cover;
+    color:black;
+    flex:1;
+    border-radius:1rem;
+}
+.texte3{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    background-color: aqua
+    font-family:var(--fontIBM);
+    font-weight:500;
+    font-size:1.7rem;
 }
 
