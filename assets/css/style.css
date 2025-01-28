@@ -50,6 +50,8 @@
 }
 .section7_div2{
     background-image: url(/assets/img/Publicité.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 24rem;
 }
@@ -57,7 +59,9 @@
     margin: 5rem 0 1rem 3rem;
     display: flex;
     width: 200%;
-    gap: 1.5rem;    
+    gap: 1.5rem;
+    overflow-x: scroll;
+    
 }
 .section8_div{
     display: flex;

@@ -25,5 +25,24 @@
     .section6_div2__4{
         margin-top: 2rem;
     }
-    
+    /* .section7{
+        display: flex;
+        flex-direction: row;
+        padding-top: 55rem;
+    }
+    .section7_div1{
+        font-size: 4rem;
+        transform: translate(0, 50%);
+        writing-mode: vertical-lr;
+        rotate: 180deg;
+        text-align: center;
+        border-left: none;
+    }
+    .section7_div2{
+        height: 55rem;
+     } */
+      .section8{
+        width: 100%;
+        margin-top: 10rem;
+      }
 }
