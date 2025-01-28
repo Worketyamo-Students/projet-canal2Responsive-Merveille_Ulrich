@@ -64,41 +64,25 @@
     flex-direction: column;
     gap: 2rem;
 }
-.section8_div1__1{
-    background-image: url(/assets/img/unesco.svg);
+.section8_div__1{
+    background-image: url(/assets/img/femme.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
     height: 20rem;
     border-radius: 1rem;
 }
-.section8_div1__2{
+.section8_div__2{
     font-family: var(--fontinter);
     color: var(--vert);
     font-size: 1.3rem;
     font-style: italic;
 }
-.section8_div1__3{
+.section8_div__3{
     font-family: var(--fontIBM);
     color: var(--noir);
     font-size: 1.8rem;
     width: 70%;
-}
-.section8_div2__1{
-    background-image: url(/assets/img/politique.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 20rem;
-    border-radius: 1rem;
-}
-.section8_div3__1{
-    background-image: url(/assets/img/foot.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 20rem;
-    border-radius: 1rem;
 }
 footer{
     width: 100%;
