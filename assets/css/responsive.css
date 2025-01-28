@@ -1,0 +1,29 @@
+@media screen and (width>899px) {
+    .section6{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0;
+    }
+    .section6_div1{
+        height: 45rem;
+        flex: 1;
+        background-size: contain;
+        background-position: center;
+    }
+    .section6_div2{
+        flex: 1;
+        padding-top: 5rem;
+
+    }
+    .section6_div2__1{
+        font-size: 4.8rem;
+    }
+    .section6_div2__2, .section6_div2__3{
+        font-size: 2rem;
+        width: 90%;
+    }
+    .section6_div2__4{
+        margin-top: 2rem;
+    }
+    
+}
