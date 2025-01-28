@@ -32,6 +32,7 @@
 .section6_div2__4{
     display: flex;
     gap: 2.7rem;
+    align-items: center;
 }
 .section7{
     display: flex;
@@ -40,8 +41,9 @@
     gap: 2rem;
 }
 .section7_div1{
+    display: flex;
     font-family: var(--fontIBM);
-    font-size: 3.2rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--vert);
     border-left: solid 1.2rem;
