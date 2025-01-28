@@ -44,5 +44,26 @@
       .section8{
         width: 100%;
         margin-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      .section8_div__1{
+        height: 30rem;
+      }
+      .section8_div__3{
+        font-size: 2rem;
+      }
+      footer{
+        height: 30rem;
+        margin-top: 6rem;
+      }
+      .footer_item1{
+        background-size: cover;
+        width: 25rem;
+        height: 15rem;
+      }
+      .footer_item2{
+        display: flex;
+        gap: 4rem;
       }
 }
