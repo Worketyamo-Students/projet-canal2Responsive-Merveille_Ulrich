@@ -1,144 +1,35 @@
-header{
-    display:flex;
-    justify-content:space-between;
-    padding-top:2rem;
-    padding-right:1rem;
-    align-items:center;
-    margin:1rem 1.7rem;
-}
-button{
-    background-color:white;
-}
-.section1{
+.section6{
     display: flex;
     flex-direction: column;
-    margin: 2.5rem 2rem 2rem 1.7rem;
-    gap:2rem;
+    margin: 2rem;
+    gap: 2rem;
 }
-.section1_div1{
-    height: 28rem;
-    background-image: url(../img/francis.svg) ;
-    background-position: center top;
+.section6_div1{
+    width: 95%;
+    height: 22rem;
+    background-image: url(/assets/img/comment.svg);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
-.ombre{
-    background-color: black;
-    height: 28rem;
-    width: 91%;
-    opacity: 40%;
-    position: absolute;
-}
-.section1_div1_text{
-    height: 7rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
+.section6_div2{
     display: flex;
     flex-direction: column;
-    border-left-color: var(--vert);
-    justify-content: space-around;
-    color: var(--blanc);
-    position: relative;
-    margin-top: 19rem;
-    margin-left: 1.7rem;
+    gap: 1.5rem;
 }
-.nganou{
+.section6_div2__1{
+    color: var(--vert);
     font-family: var(--fontIBM);
-    font-size: 1.8rem;
-    width: 90%;
-    font-weight: 700;
+    font-size: 3.2rem;
+    font-weight: 600;
 }
-.actu{
-    font-family: var(--fontIBM);
-    font-size: 1.1rem;
-    font-weight: 440;
+.section6_div2__2, .section6_div2__3{
+    color: var(--noir);
+    font-family: var(--fontOpenSans);
+    font-size: 1.4rem;
+    font-weight: 400;
 }
-
-.section1_div2{
-    display:flex;
-    gap:2.8rem;
-}
-.section1_div2__petit1{
-    height:11.4rem;
-    background-image:url(../img/enfants.svg);
-    background-size:cover;
-    color:black;
-    flex:1;
-    border-radius:1rem;
-}
-.texte1{
-    flex:1;
-    display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-    font-family: var(--fontIBM);
-    font-size:1.7rem;
-    font-weight:500;
-}
-p{
-    font-size:1.2rem;
-    font-family:var(--fontOpenSans);
-}  
-.a_la_une{
-    height: 3rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
+.section6_div2__4{
     display: flex;
-    flex-direction: column;
-    border-left-color: var(--vert);
+    gap: 2.7rem;
 }
-hr{
-    width:100rem;
-    height:0.1rem;
-    background-color:black;
-}
-
-
-.section1_div3{
-   
-    display:flex;
-    gap:2.8rem;
-}
-.section1_div3__petit2{
-   
-    height:11.4rem;
-    background-image:url(../img/armee.svg);
-    background-size:cover;
-    color:black;
-    flex:1;
-    border-radius:1rem;
-}
-.texte2{
-    flex:1;
-    display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-    background-color: aqua;
-    font-family:var(--fontIBM);
-    font-weight:500;
-    font-size:1.7rem;
-}
-.section1_div4{
-   
-    display:flex;
-    gap:2.8rem;
-}
-.section1_div3__petit3{
-   
-    height:11.4rem;
-    background-image:url(../img/ville.svg);
-    background-size:cover;
-    color:black;
-    flex:1;
-    border-radius:1rem;
-}
-.texte3{
-    flex:1;
-    display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-    background-color: aqua;
-    font-family:var(--fontIBM);
-    font-weight:500;
-    font-size:1.7rem;
-}
-
