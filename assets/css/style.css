@@ -5,28 +5,28 @@ header{
     justify-content:space-between;
     padding-top:2rem;
     padding-right:1rem;
+    align-items:center;
+    margin:1rem 1.7rem;
 }
-.menu{
-    padding-top:1.2rem;
+button{
+    background-color:white;
 }
 .section1{
     display: flex;
     flex-direction: column;
     margin: 2.5rem 2rem 2rem 1.7rem;
+    gap:2rem;
 }
 .section1_div1{
     height: 28rem;
     background-image: url(../img/francis.svg) ;
     background-position: center top;
-    /* background-size: cover; */
     background-repeat: no-repeat;
-    display: flex;
-    position: absolute;
 }
 .ombre{
     background-color: black;
     height: 28rem;
-    width: 100%;
+    width: 91%;
     opacity: 40%;
     position: absolute;
 }
@@ -54,4 +54,41 @@ header{
     font-size: 1.1rem;
     font-weight: 350;
 }
-
+.section1_div2{
+    display:flex;
+    gap:2.8rem;
+}
+.section1_div2__petit1{
+    height:11.4rem;
+    background-image:url(../img/enfants.svg);
+    background-size:cover;
+    color:black;
+    flex:1;
+    border-radius:1rem;
+}
+.texte1{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    font-family: var(--fontIBM);
+    font-size:1.7rem;
+    font-weight:500;
+}
+p{
+    font-size:1.2rem;
+    font-family:var(--fontOpenSans);
+}  
+.a_la_une{
+    height: 3rem;
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-left-color: var(--vert);
+}
+hr{
+    width:100rem;
+    height:0.1rem;
+    background-color:black;
+}
