@@ -36,40 +36,44 @@ font-size:4rem;
    }
     .section3_video{
         width:95%;
-        height:40rem;
+        height:48rem;
 
     }
     .section4{
         margin-top:4rem;
 
     }
+    .section41{
+        width:98%;
+         height:47rem;
+     display:flex;
+ 
+     margin-top:2.5rem;
+    }
     .section4_item1{
-        /* width:100rem; */
-        height:40rem;
+        width:100%;
+        height:47rem;
         flex:1;
     }
     .section4_item{
         flex:1;
     }
-    .section41{
-       width:98%;
-        height:40rem;
-    display:flex;
    
-    /* background-color: aqua; */
-    margin-top:2.5rem;
-   }
 .section4_item2{
-    font-size:4.2rem;
+    font-size:4.5rem;
     
 }
 
 .section4_item3{
-    font-size:2rem;
+    font-size:2.3rem;
 }
 .section5{
     margin-top:6rem;
     width:100%;
+}
+.section5_div__11{
+    height:15rem;
+    width:80%;
 }
 
 .section5_divc{
