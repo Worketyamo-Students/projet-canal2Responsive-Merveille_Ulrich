@@ -94,8 +94,8 @@ hr{
 }
 .section2{
     width:100%;
-    display:flex;
-    gap:2em;
+    /* display:flex; */
+    gap:2rem;
     padding-left:2rem;
     padding-top:3rem;
     
@@ -107,25 +107,35 @@ hr{
     /* width: 70%; */
 }
 .section2_div1{
+    width:90%;
     height:21.18rem;
     border-radius:1rem;
     /* overflow:hidden; */
-     /* background-image:url(../img/unesco.svg);  */
+      background-image:url(../img/unesco.svg); 
+      background-size:cover;
+      background-repeat:no-repeat;
+      margin-top:5rem;
 }
  .section2_div2{
-    height:21.18rem;
-    width:25.195rem;
+    width:90%;
+     height:21.18rem; 
+     /* width:25.195rem;  */
     border-radius:1rem;
     /* overflow:hidden; */
     background-image:url(../img/politique.svg);
     background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:5rem;
 } 
 .section2_div3{
+    width:90%;
     height:21.18rem;
-    width:25.195rem;
+    /* width:25.195rem; */
     border-radius:1rem;
     background-image:url(../img/foot.svg);
     background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:5rem;
 }
 
 .sous-titre{
@@ -136,15 +146,22 @@ hr{
     text-align:center;
 }
 .section3_video{
-    width:80%;
-    
+    width:90%;
+    height:30rem;
+    background:url(../img/zogo.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
     margin: 1rem 7rem 1rem 2rem;
     border-radius:2rem;
 
+
 }
 .section4_item1{
-    width:80%;
-    
+    width:90%;
+    height:30rem;
+    background-image: url(../img/matin.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
     margin: 1rem 7rem 1rem 2rem;
     border-radius:2rem;
 }
@@ -164,7 +181,7 @@ hr{
     justify-content: space-between;
     width: 150%;
     /* background-color: aqua; */
-    margin: 0 0 0 1.2rem;
+    margin: 3rem 0 0 1.5rem;
 }
 .section5_div{
     width: 100%;
@@ -173,14 +190,22 @@ hr{
     gap: 1rem;
     /* background-color: brown; */
 }
-.section5_div__11{
+.section5_divc{
     height: 15rem;
     width: 80%;
-    background-image: url(/assets/img/nous.svg); 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     border:1px rgb(221, 219, 219) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section5_div__11{
+    height: 10rem;
+    width: 80%;
+    background-image: url(/assets/img/nous.svg); 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 .section5_div__2{
     width: 12rem;
