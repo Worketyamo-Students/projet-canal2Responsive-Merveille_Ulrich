@@ -1,0 +1,44 @@
+@media screen and (width>899px) {
+    nav{
+        width: 50%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        list-style-type: none;
+    }
+    li>a{
+        text-decoration: none;
+        color: var(--noir);
+        font-size: 2rem;
+        font-family: var(--fontIBM);
+    }
+    a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .b1{
+        display: none;
+    }
+    .b2{
+        display: block;
+        background-color: var(--vert);
+        width: 15rem;
+        height: 5rem;
+        border-radius: 5rem;
+        font-size: 2rem;
+        font-family: var(--fontinter);
+        transition: calc(0.3s);
+        color: var(--blanc);
+        margin-right: 1rem;
+    }
+    .b2:hover{
+        color: var(--vert);
+        background-color: var(--blanc);
+        box-shadow: 0.5rem 0.5rem #002b0b;
+        transform: translate(0, -1rem);
+        cursor: pointer;
+        border: 0.1rem solid;
+    }    
+}

@@ -4,12 +4,17 @@ header{
     display:flex;
     justify-content:space-between;
     padding-top:2rem;
-    padding-right:1rem;
     align-items:center;
     margin:1rem 1.7rem;
 }
-button{
+ul{
+    display: none;
+}
+.b1{
     background-color:white;
+}
+.b2{
+    display: none;
 }
 .section1{
     display: flex;
@@ -23,13 +28,13 @@ button{
     background-position: center top;
     background-repeat: no-repeat;
 }
-.ombre{
+/* .ombre{
     background-color: black;
     height: 28rem;
     width: 91%;
     opacity: 40%;
     position: absolute;
-}
+} */
 .section1_div1_text{
     height: 7rem;
     border-left: solid 1rem ;
