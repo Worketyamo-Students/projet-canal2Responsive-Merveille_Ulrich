@@ -1,4 +1,8 @@
 @media screen and (width>899px) {
+    header{
+        padding-top: 0;
+        margin-top: 0;
+    }
     nav{
         width: 50%;
     }
@@ -17,6 +21,7 @@
     a:hover{
         cursor: pointer;
         text-decoration: underline;
+        color: var(--vert);
     }
     .b1{
         display: none;
@@ -36,9 +41,51 @@
     .b2:hover{
         color: var(--vert);
         background-color: var(--blanc);
-        box-shadow: 0.5rem 0.5rem #002b0b;
-        transform: translate(0, -1rem);
+        box-shadow: 0.4rem 0.4rem #002b0b;
+        transform: translate(0, -0.5rem);
         cursor: pointer;
         border: 0.1rem solid;
-    }    
+    }
+    .section1{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        width: 95%;
+    }
+    .section1_div1{
+        height: 50rem;
+        width: 130%;
+        border-radius: 3rem;
+        background-size: cover;
+    }
+    .section1_div1_text{
+        height: 14rem;
+        margin-top: 33rem;
+        margin-left: 3rem;
+        padding-left: 3rem;
+        width: 80%;
+    }
+    .nganou{
+        font-size: 3.5rem;
+    }
+    .actu{
+        font-size: 2rem;
+    }
+    hr{
+        display: none;
+    }
+    .texte1{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+    .sec1Div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 2rem;
+    }  
+    .section1_div2{
+        gap: 1rem;
+    }  
 }

@@ -28,13 +28,6 @@ ul{
     background-position: center top;
     background-repeat: no-repeat;
 }
-/* .ombre{
-    background-color: black;
-    height: 28rem;
-    width: 91%;
-    opacity: 40%;
-    position: absolute;
-} */
 .section1_div1_text{
     height: 7rem;
     border-left: solid 1rem ;
@@ -59,15 +52,26 @@ ul{
     font-size: 1.1rem;
     font-weight: 350;
 }
+.sec1Div2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.a_la_une{
+    height: 3rem;
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    border-left-color: var(--vert);
+    align-items: center;
+}
 .section1_div2{
     display:flex;
-    gap:2.8rem;
+    /* gap:2.8rem; */
 }
 .section1_div2__petit1{
-    height:11.4rem;
-    background-image:url(../img/enfants.svg);
     background-size:cover;
-    color:black;
+    color: var(--marron);
     flex:1;
     border-radius:1rem;
 }
@@ -77,21 +81,14 @@ ul{
     justify-content: space-between;
     flex-direction:column;
     font-family: var(--fontIBM);
-    font-size:1.7rem;
+    color: var(--marron);
+    font-size:1.6rem;
     font-weight:500;
 }
 p{
     font-size:1.2rem;
     font-family:var(--fontOpenSans);
 }  
-.a_la_une{
-    height: 3rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
-    display: flex;
-    flex-direction: column;
-    border-left-color: var(--vert);
-}
 hr{
     width:100rem;
     height:0.1rem;
