@@ -20,13 +20,27 @@
     height:30rem;
 
    }
+   .sous-titre{
+    font-size:1.4rem;
+   }
+   .title{
+width:80%;
+    font-size:2.2rem;
+   }
    .suivez{
 font-size:4rem;
 
    }
+   .section3{
+    margin-top:4rem;
+   }
     .section3_video{
         width:95%;
         height:40rem;
+
+    }
+    .section4{
+        margin-top:4rem;
 
     }
     .section4_item1{
@@ -54,7 +68,7 @@ font-size:4rem;
     font-size:2rem;
 }
 .section5{
-    margin-top:5rem;
+    margin-top:6rem;
     width:100%;
 }
 
@@ -68,6 +82,7 @@ font-size:4rem;
     height:25rem;
 }
 .section5_div__3{
+    width:100%;
     font-size:2.4rem;
 }
 }
