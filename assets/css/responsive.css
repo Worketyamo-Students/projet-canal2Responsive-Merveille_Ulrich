@@ -35,10 +35,16 @@ font-size:4rem;
     margin-top:4rem;
    }
     .section3_video{
+        
         width:95%;
-        height:48rem;
+        height:58rem;
 
     }
+    /* .video{
+        width:105%;
+        height:58rem;
+        display:block;
+    } */
     .section4{
         margin-top:4rem;
 
@@ -51,7 +57,7 @@ font-size:4rem;
      margin-top:2.5rem;
     }
     .section4_item1{
-        width:120%;
+        /* width:120%; */
         height:47rem;
         flex:1;
     }
@@ -66,7 +72,8 @@ font-size:4rem;
 }
 
 .section4_item3{
-    font-size:2.3rem;
+    margin-top:5.5rem;
+    font-size:2.1rem;
 }
 .section5{
     margin-top:6rem;

@@ -156,6 +156,9 @@ hr{
 
 
 }
+.video{
+    display:none;
+}
 .section4_item{
     justify-content:space-between;
     margin-left:2rem;
