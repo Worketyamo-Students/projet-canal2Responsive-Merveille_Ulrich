@@ -58,6 +58,7 @@
         width: 130%;
         border-radius: 3rem;
         background-size: cover;
+        background:linear-gradient(to top,rgba(0,0,0,0.7),transparent),url(../img/francis.svg) center/ cover no-repeat;
     }
     .section1_div1_text{
         height: 14rem;
@@ -172,10 +173,12 @@
     .section3{
         margin-top:4rem;
     }
-    .section3_video{
-        width:95%;
-        height:58rem;
-    }
+    
+     video{
+     height:78rem;
+     width:96%;
+     border-radius:2rem;
+     }
     .section4{
         margin-top:4rem;
     }
@@ -274,14 +277,15 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        margin-top: -2rem;
+        margin-top: -3.5rem;
     }
     .section7_div2{
         width: 100%;
-        height: 90%;
+        height: 100%;
         background-image: url(/assets/img/PublicitéPC.svg) ;
         background-size: contain;
         background-repeat: no-repeat;
+        margin-top: 2rem;
     }
     .section8{
         width: 100%;
