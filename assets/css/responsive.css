@@ -263,7 +263,7 @@
         margin-bottom: -13rem;
     }
     .bordure{
-        height: 3rem;
+        height: 3.5rem;
         width: 1rem;
         background-color: var(--vert);
         
@@ -279,7 +279,7 @@
         align-items: center;
         gap: 1rem;
         font-size:1.6rem;
-        margin-top: -5.8%;
+        margin-top: -1%;
     }
     .section7_div2{
         width: 100%;
