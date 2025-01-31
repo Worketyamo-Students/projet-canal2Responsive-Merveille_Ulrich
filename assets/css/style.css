@@ -1,74 +1,5 @@
- 
-
-
-.section2{
-    width:100%;
-    /* display:flex; */
-    gap:2rem;
-    padding-left:2rem;
-    padding-top:3rem;
-    
-}
-.section21{
+header{
     display:flex;
-    flex-direction:column;
-    /* flex: 1; */
-    /* width: 70%; */
-}
-.section2_div1{
-    width:90%;
-    height:21.18rem;
-    border-radius:1rem;
-    /* overflow:hidden; */
-      background-image:url(../img/unesco.svg); 
-      background-size:cover;
-      background-repeat:no-repeat;
-      margin-top:5rem;
-}
- .section2_div2{
-    width:90%;
-     height:21.18rem; 
-     /* width:25.195rem;  */
-    border-radius:1rem;
-    /* overflow:hidden; */
-    background-image:url(../img/politique.svg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    margin-top:5rem;
-} 
-.section2_div3{
-    width:90%;
-    height:21.18rem;
-    /* width:25.195rem; */
-    border-radius:1rem;
-    background-image:url(../img/foot.svg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    margin-top:5rem;
-}
-
-.sous-titre{
-    color:var(--vert);
-}
-.suivez{
-    padding-top:4rem;
-    text-align:center;
-}
-.section3_video{
-    width:90%;
-    height:30rem;
-    background:url(../img/zogo.svg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    margin: 1rem 7rem 1rem 2rem;
-    border-radius:2rem;
-
-
-}
-.video{
-    display:none;
-}
-.section4_item{
     justify-content:space-between;
     padding-top:2rem;
     align-items:center;
@@ -89,6 +20,140 @@ ul{
     margin: 2.5rem 2rem 2rem 1.7rem;
     margin-left:2rem;
     width:92%;
+}
+.section1_div1{
+    height: 28rem;
+    background-image: url(../img/francis.svg) ;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.section1_div1_text{
+    height: 7rem;
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-left-color: var(--vert);
+    justify-content: space-around;
+    color: var(--blanc);
+    position: relative;
+    margin-top: 19rem;
+    margin-left: 1.7rem;
+}
+.nganou{
+    font-family: var(--fontIBM);
+    font-size: 1.8rem;
+    width: 90%;
+    font-weight: 700;
+}
+.actu{
+    font-family: var(--fontIBM);
+    font-size: 1.1rem;
+    font-weight: 350;
+}
+.sec1Div2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.a_la_une{
+    height: 3rem;
+    border-left: solid 1rem ;
+    padding-left: 0.8rem;
+    display: flex;
+    border-left-color: var(--vert);
+    align-items: center;
+}
+.section1_div2{
+    display:flex;
+}
+.section1_div2__petit1{
+    background-size:cover;
+    color: var(--marron);
+    flex:1;
+    border-radius:1rem;
+}
+.texte1{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    font-family: var(--fontIBM);
+    color: var(--marron);
+    font-size:1.6rem;
+    font-weight:500;
+}
+p{
+    font-size:1.2rem;
+    font-family:var(--fontOpenSans);
+}  
+hr{
+    width:100rem;
+    height:0.1rem;
+    background-color:black;
+}
+.section2{
+    width:100%;
+    gap:2rem;
+    padding-left:2rem;
+    padding-top:3rem;
+}
+.section21{
+    display:flex;
+    flex-direction:column;
+}
+.section2_div1{
+    width:90%;
+    height:21.18rem;
+    border-radius:1rem;
+      background-image:url(../img/unesco.svg); 
+      background-size:cover;
+      background-repeat:no-repeat;
+      margin-top:5rem;
+}
+.section2_div2{
+    width:90%;
+     height:21.18rem; 
+    border-radius:1rem;
+    background-image:url(../img/politique.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:5rem;
+} 
+.section2_div3{
+    width:90%;
+    height:21.18rem;
+    border-radius:1rem;
+    background-image:url(../img/foot.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:5rem;
+}
+.sous-titre{
+    color:var(--vert);
+}
+.suivez{
+    padding-top:4rem;
+    text-align:center;
+}
+.section3_video{
+    width:90%;
+    height:30rem;
+    background:url(../img/zogo.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin: 1rem 7rem 1rem 2rem;
+    border-radius:2rem;
+}
+.video{
+    display:none;
+}
+.section4_item{
+    justify-content:space-between;
+    padding-top:2rem;
+    align-items:center;
+    margin:1rem 1.7rem;
 }
 .section4_item1{
     width:90%;
@@ -115,7 +180,6 @@ ul{
     display: flex;
     justify-content: space-between;
     width: 150%;
-    /* background-color: aqua; */
     margin: 3rem 0 0 1.5rem;
 }
 .section5_div{
@@ -123,7 +187,6 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    /* background-color: brown; */
 }
 .section5_divc{
     height: 15rem;
@@ -160,72 +223,6 @@ ul{
     background-image: url(/assets/img/arene.svg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.section1_div1_text{
-    height: 7rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
-    display: flex;
-    flex-direction: column;
-    border-left-color: var(--vert);
-    justify-content: space-around;
-    color: var(--blanc);
-    position: relative;
-    margin-top: 19rem;
-    margin-left: 1.7rem;
-}
-.nganou{
-    font-family: var(--fontIBM);
-    font-size: 1.8rem;
-    width: 90%;
-    font-weight: 700;
-}
-.actu{
-    font-family: var(--fontIBM);
-    font-size: 1.1rem;
-    font-weight: 350;
-}
-.sec1Div2{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-.a_la_une{
-    height: 3rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
-    display: flex;
-    border-left-color: var(--vert);
-    align-items: center;
-}
-.section1_div2{
-    display:flex;
-    /* gap:2.8rem; */
-}
-.section1_div2__petit1{
-    background-size:cover;
-    color: var(--marron);
-    flex:1;
-    border-radius:1rem;
-}
-.texte1{
-    flex:1;
-    display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-    font-family: var(--fontIBM);
-    color: var(--marron);
-    font-size:1.6rem;
-    font-weight:500;
-}
-p{
-    font-size:1.2rem;
-    font-family:var(--fontOpenSans);
-}  
-hr{
-    width:100rem;
-    height:0.1rem;
-    background-color:black;
 }
 .section5_div__13{
     width: 80%;
