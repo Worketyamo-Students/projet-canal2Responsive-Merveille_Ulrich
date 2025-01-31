@@ -89,61 +89,7 @@
     }  
     .section1_div2{
         gap: 1rem;
-    }  
-}
-@media screen and (width>600px) and (width<900px) {
-    header{
-        padding-top: 0;
-        margin-top: 0;
     }
-    nav{
-        width: 50%;
-    }
-    ul{
-        display: flex;
-        justify-content: space-between;
-        width:100%;
-        list-style-type: none;
-    }
-    li>a{
-        text-decoration: none;
-        color: var(--noir);
-        font-size: 1.5rem;
-        font-family: var(--fontIBM);
-    }
-    a:hover{
-        cursor: pointer;
-        text-decoration: underline;
-        color: var(--vert);
-    }
-    .b1{
-        display: none;
-    }
-    .b2{
-        display: block;
-        background-color: var(--vert);
-        width: 15rem;
-        height: 5rem;
-        border-radius: 5rem;
-        font-size: 2rem;
-        font-family: var(--fontinter);
-        transition: calc(0.3s);
-        color: var(--blanc);
-        margin-right: 1rem;
-    }
-    .section1{
-         width: 80%;
-    }
-    .section1_div1{
-        display: none;
-    }
-    .texte1{
-        justify-content: space-around;
-        padding-left: -5rem;
-        font-size: 1.5rem;
-    }    
-}
-@media screen and (width>899px){
     .section2{
         display:flex;
         margin: 0 3rem;
@@ -224,8 +170,6 @@
         width:100%;
         font-size:2.4rem;
     }
-}
-@media screen and (width>899px) {
     .section6{
         display: flex;
         flex-direction: row-reverse;
@@ -320,4 +264,56 @@
         display: flex;
         gap: 4rem;
     }
-}    
+}
+@media screen and (width>600px) and (width<900px) {
+    header{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    nav{
+        width: 50%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        list-style-type: none;
+    }
+    li>a{
+        text-decoration: none;
+        color: var(--noir);
+        font-size: 1.5rem;
+        font-family: var(--fontIBM);
+    }
+    a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: var(--vert);
+    }
+    .b1{
+        display: none;
+    }
+    .b2{
+        display: block;
+        background-color: var(--vert);
+        width: 15rem;
+        height: 5rem;
+        border-radius: 5rem;
+        font-size: 2rem;
+        font-family: var(--fontinter);
+        transition: calc(0.3s);
+        color: var(--blanc);
+        margin-right: 1rem;
+    }
+    .section1{
+         width: 80%;
+    }
+    .section1_div1{
+        display: none;
+    }
+    .texte1{
+        justify-content: space-around;
+        padding-left: -5rem;
+        font-size: 1.5rem;
+    }    
+}
