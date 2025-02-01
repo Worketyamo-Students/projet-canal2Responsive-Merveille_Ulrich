@@ -1,32 +1,38 @@
 @media screen and (width>899px) {
-    header{
+    header {
         padding-top: 0;
         margin-top: 0;
     }
-    nav{
+
+    nav {
         width: 50%;
     }
-    ul{
+
+    ul {
         display: flex;
         justify-content: space-between;
-        width:100%;
+        width: 100%;
         list-style-type: none;
     }
-    li>a{
+
+    li>a {
         text-decoration: none;
         color: var(--noir);
         font-size: 2rem;
         font-family: var(--fontIBM);
     }
-    a:hover{
+
+    a:hover {
         cursor: pointer;
         text-decoration: underline;
         color: var(--vert);
     }
-    .b1{
+
+    .b1 {
         display: none;
     }
-    .b2{
+
+    .b2 {
         display: block;
         background-color: var(--vert);
         width: 15rem;
@@ -38,7 +44,8 @@
         color: var(--blanc);
         margin-right: 1rem;
     }
-    .b2:hover{
+
+    .b2:hover {
         color: var(--vert);
         background-color: var(--blanc);
         box-shadow: 0.4rem 0.4rem #002b0b;
@@ -46,158 +53,195 @@
         cursor: pointer;
         border: 0.1rem solid;
     }
-    .section1{
+
+    .section1 {
         display: flex;
         flex-direction: row;
         gap: 3rem;
         width: 95%;
         height: 50rem;
     }
-    .section1_div1{
+
+    .section1_div1 {
         height: 100%;
         width: 130%;
         border-radius: 3rem;
         background-size: cover;
-        background:linear-gradient(to top,rgba(0,0,0,0.7),transparent),url(../img/francis.svg) center/ cover no-repeat;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url(../img/francis.svg) center/ cover no-repeat;
     }
-    .section1_div1_text{
+
+    .section1_div1_text {
         height: 14rem;
         margin-top: 33rem;
         margin-left: 3rem;
         padding-left: 3rem;
         width: 80%;
     }
-    .nganou{
+
+    .nganou {
         font-size: 3.5rem;
     }
-    .actu{
+
+    .actu {
         font-size: 2rem;
     }
-    hr{
+
+    hr {
         display: none;
     }
-    .texte1{
+
+    .texte1 {
         display: flex;
         flex-direction: column;
         font-size: 1.5rem;
     }
-    .sec1Div2{
+
+    .sec1Div2 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding-left: 2rem;
-    }  
-    .section1_div2{
+    }
+
+    .section1_div2 {
         gap: 1rem;
     }
-    .section2{
-        display:flex;
+
+    .section2 {
+        display: flex;
         margin: 0 3rem;
     }
-    .section2_div1{
-        width:80%;
-        height:30rem;
-    }
-    .section2_div2{
-        width:80%;
-        height:30rem;
-    }
-    .section2_div3{
+
+    .section2_div1 {
         width: 80%;
-        height:30rem;
+        height: 30rem;
     }
-    .sous-titre{
-        font-size:1.4rem;
+
+    .section2_div2 {
+        width: 80%;
+        height: 30rem;
     }
-    .title{
-        width:80%;
-        font-size:2.2rem;
+
+    .section2_div3 {
+        width: 80%;
+        height: 30rem;
     }
-    .suivez{
-        font-size:4rem;
+
+    .sous-titre {
+        font-size: 1.4rem;
     }
-    .section3{
-        margin-top:4rem;
+
+    .title {
+        width: 80%;
+        font-size: 2.2rem;
     }
-    
-     video{
-     height:78rem;
-     width:96%;
-     border-radius:2rem;
-     }
-    .section4{
-        margin-top:4rem;
+
+    .suivez {
+        font-size: 4rem;
     }
-    .section41{
-        width:100%;
-        height:47rem;
-        display:flex;
-        margin-top:2.5rem;
+
+    .section3 {
+        margin-top: 4rem;
     }
-    .section4_item1{
-        height:40rem;
-        flex:1;
+
+    video {
+        height: 78rem;
+        width: 96%;
+        border-radius: 2rem;
     }
-    .section4_item{
-        justify-content:space-between;
-        flex:1;
+
+    .section4 {
+        margin-top: 4rem;
     }
-    .section4_item2{
-        font-size:4.5rem;
+
+    .section41 {
+        width: 100%;
+        height: 47rem;
+        display: flex;
+        margin-top: 2.5rem;
     }
-    .section4_item3{
-        margin-top:5.5rem;
-        font-size:2.1rem;
+
+    .section4_item1 {
+        height: 40rem;
+        flex: 1;
     }
-    .section5{
-        margin-top:6rem;
-        width:100%;
+
+    .section4_item {
+        justify-content: space-between;
+        flex: 1;
     }
-    .section5_div__11{
-        height:15rem;
-        width:80%;
+
+    .section4_item2 {
+        font-size: 4.5rem;
     }
-    .section5_divc{
-        height:25rem; 
+
+    .section4_item3 {
+        margin-top: 5.5rem;
+        font-size: 2.1rem;
     }
-    .section5_div__12{
-        height:25rem;
+
+    .section5 {
+        margin-top: 6rem;
+        width: 100%;
     }
-    .section5_div__13{
-        height:25rem;
+
+    .section5_div__11 {
+        height: 15rem;
+        width: 80%;
     }
-    .section5_div__3{
-        width:100%;
-        font-size:2.4rem;
+
+    .section5_divc {
+        height: 25rem;
     }
-    .section6{
+
+    .section5_div__12 {
+        height: 25rem;
+    }
+
+    .section5_div__13 {
+        height: 25rem;
+    }
+
+    .section5_div__3 {
+        width: 100%;
+        font-size: 2.4rem;
+    }
+
+    .section6 {
         display: flex;
         flex-direction: row-reverse;
         margin-top: 10rem;
         padding: 0 2rem;
     }
-    .section6_div1{
+
+    .section6_div1 {
         height: 45rem;
         flex: 1;
         background-size: contain;
         background-position: center;
     }
-    .section6_div2{
+
+    .section6_div2 {
         flex: 1;
         padding-top: 5rem;
 
     }
-    .section6_div2__1{
+
+    .section6_div2__1 {
         font-size: 4.8rem;
     }
-    .section6_div2__2, .section6_div2__3{
+
+    .section6_div2__2,
+    .section6_div2__3 {
         font-size: 2.4rem;
         width: 90%;
     }
-    .section6_div2__4{
+
+    .section6_div2__4 {
         margin-top: 2rem;
     }
-    .section7{
+
+    .section7 {
         width: 100%;
         height: 50rem;
         display: flex;
@@ -206,13 +250,15 @@
         margin-top: 10rem;
         margin-bottom: -13rem;
     }
-    .bordure{
+
+    .bordure {
         height: 3rem;
         width: 1rem;
         background-color: var(--vert);
-        
+
     }
-    .section7_div1{
+
+    .section7_div1 {
         font-size: 2rem;
         writing-mode: vertical-lr;
         rotate: 180deg;
@@ -222,78 +268,94 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        font-size:1.6rem;
+        font-size: 1.6rem;
         margin-top: -5.8%;
     }
-    .section7_div2{
+
+    .section7_div2 {
         width: 100%;
         height: 100%;
-        background-image: url(/assets/img/PublicitéPC.svg) ;
+        background-image: url(/assets/img/PublicitéPC.svg);
         background-size: contain;
         background-repeat: no-repeat;
-    
+
     }
-    .section8{
+
+    .section8 {
         width: 100%;
         display: flex;
         justify-content: space-between;
         margin-top: 20rem;
     }
-    .section8_div2, .section8_div3{
+
+    .section8_div2,
+    .section8_div3 {
         display: flex;
         flex-direction: column;
-        gap: 2rem;    
+        gap: 2rem;
     }
-    .section8_div__1{
+
+    .section8_div__1 {
         height: 30rem;
         width: 80%;
     }
-    .section8_div__3{
+
+    .section8_div__3 {
         font-size: 2rem;
     }
-    footer{
+
+    footer {
         height: 30rem;
         margin-top: 6rem;
     }
-    .footer_item1{
+
+    .footer_item1 {
         background-size: cover;
         width: 25rem;
         height: 15rem;
     }
-    .footer_item2{
+
+    .footer_item2 {
         display: flex;
         gap: 4rem;
     }
 }
+
 @media screen and (width>600px) and (width<900px) {
-    header{
+    header {
         padding-top: 0;
         margin-top: 0;
     }
-    nav{
+
+    nav {
         width: 50%;
     }
-    ul{
+
+    ul {
         display: flex;
         justify-content: space-between;
-        width:100%;
+        width: 100%;
         list-style-type: none;
     }
-    li>a{
+
+    li>a {
         text-decoration: none;
         color: var(--noir);
         font-size: 1.5rem;
         font-family: var(--fontIBM);
     }
-    a:hover{
+
+    a:hover {
         cursor: pointer;
         text-decoration: underline;
         color: var(--vert);
     }
-    .b1{
+
+    .b1 {
         display: none;
     }
-    .b2{
+
+    .b2 {
         display: block;
         background-color: var(--vert);
         width: 15rem;
@@ -305,15 +367,18 @@
         color: var(--blanc);
         margin-right: 1rem;
     }
-    .section1{
-         width: 80%;
+
+    .section1 {
+        width: 80%;
     }
-    .section1_div1{
+
+    .section1_div1 {
         display: none;
     }
-    .texte1{
+
+    .texte1 {
         justify-content: space-around;
         padding-left: -5rem;
         font-size: 1.5rem;
-    }    
+    }
 }
