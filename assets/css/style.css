@@ -96,16 +96,24 @@ hr{
     background-color:black;
 }
 .section2{
-    width:100%;
-    gap:2rem;
+    width: 150%;
+    gap: 2rem;
     padding-left:2rem;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    white-space:nowrap;
+    cursor:grab;
+    
+    /* animation: scroll 20s linear infinite; */
+    scrollbar-width:none;
 }
 .section21{
     display:flex;
     flex-direction:column;
 }
 .section2_div1{
-    width:90%;
+    width:95%;
     height:24.18rem;
     border-radius:1rem;
     background-image:url(../img/unesco.svg); 
@@ -184,6 +192,9 @@ video{
     justify-content: space-between;
     width: 150%;
     margin: 3rem 0 0 1.5rem;
+    overflow-x: scroll;
+    cursor: grab;
+
 }
 .section5_div{
     width: 100%;
@@ -198,6 +209,9 @@ video{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: scroll;
+    cursor: grab;
+
     
 }
 .section5_div__11{
@@ -229,72 +243,8 @@ video{
 }
 
 
-.section1_div1_text{
-    height: 7rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
-    display: flex;
-    flex-direction: column;
-    border-left-color: var(--vert);
-    justify-content: space-around;
-    color: var(--blanc);
-    position: relative;
-    margin-top: 19rem;
-    margin-left: 1.7rem;
-}
-.nganou{
-    font-family: var(--fontIBM);
-    font-size: 1.8rem;
-    width: 90%;
-    font-weight: 700;
-}
-.actu{
-    font-family: var(--fontIBM);
-    font-size: 1.1rem;
-    font-weight: 350;
-}
-.sec1Div2{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-.a_la_une{
-    height: 3rem;
-    border-left: solid 1rem ;
-    padding-left: 0.8rem;
-    display: flex;
-    border-left-color: var(--vert);
-    align-items: center;
-}
-.section1_div2{
-    display:flex;
-    /* gap:2.8rem; */
-}
-.section1_div2__petit1{
-    background-size:cover;
-    color: var(--marron);
-    flex:1;
-    border-radius:1rem;
-}
-.texte1{
-    flex:1;
-    display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-    font-family: var(--fontIBM);
-    color: var(--marron);
-    font-size:1.6rem;
-    font-weight:500;
-}
-p{
-    font-size:1.2rem;
-    font-family:var(--fontOpenSans);
-}  
-hr{
-    width:100rem;
-    height:0.1rem;
-    background-color:black;
-}
+
+
 .section5_div__13{
     width: 80%;
     height: 15rem;
@@ -365,7 +315,9 @@ hr{
     margin: 5rem 0 1rem 3rem;
     display: flex;
     width: 200%;
-    gap: 1.5rem;    
+    gap: 1.5rem;  
+    overflow-x: scroll;
+    cursor: grab;  
 }
 .section8_div1{
     display: flex;
